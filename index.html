@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-dark">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="shortcut icon" href="./assets/favicon.png" />
+		<title>New Tab</title>
+		<link href="./style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="root">
+			<div class="Dashboard fullscreen dark">
+				<div class="Background">
+					<div
+						class="fullscreen"
+						style="
+							opacity: 1;
+							transition: opacity 150ms ease-in-out;
+						">
+						<div
+							style="
+								background-image: url(./assets/BgImg.jpeg);
+								background-repeat: no-repeat;
+								opacity: 0.8;
+							"
+							class="Image fullscreen"></div>
+					</div>
+				</div>
+				<div class="Widgets fullscreen">
+					<div class="container">
+						<div class="Slot topLeft">
+							<div
+								class="Widget"
+								style="
+									color: rgb(168, 168, 168);
+									font-size: 36px;
+								">
+								<div class="Time">
+									<div class="Time Digital">
+										<h1 id="clockTime">Waiting Time</h1>
+									</div>
+									<hr />
+									<h3 id="dateString">Friday, December 20</h3>
+								</div>
+							</div>
+							<div
+								class="Widget"
+								style="
+									color: rgb(159, 159, 159);
+									font-size: 24px;
+								">
+								<div class="Greeting">
+									<h2>Nemuretai...</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./index.js"></script>
+	</body>
+</html>
